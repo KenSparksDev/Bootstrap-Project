@@ -36,3 +36,18 @@ header h2 {
 .navbar {
 	background-color: #901cad;
 }
+
+.c1{
+	border: solid 3px #31B2AF;
+	border-radius: 10px;
+}
+.c2{
+border:solid 3px #4C4E60;
+border-radius: 10px;
+
+}
+
+.c3{
+	border: solid 3px #F6BDA0;
+	border-radius: 10px;
+}
