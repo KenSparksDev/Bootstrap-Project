@@ -37,6 +37,14 @@ header h2 {
 	background-color: #901cad;
 }
 
+.text-row h1{
+	font-size:4.5em;
+	font-weight: 700;
+}
+.text-row p{
+	font-size:2.0em;
+
+}
 .c1{
 	border: solid 3px #31B2AF;
 	box-shadow: 0 0 10px 5px #31B2AF;
