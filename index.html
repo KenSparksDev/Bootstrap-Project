@@ -28,6 +28,9 @@
                         <h1>NuCamp</h1>
                         <h2>a better way to camp</h2>
                 </div>
+                <div class="col-md-4 col-xl-2"> 
+                <a href="#reserveForm" class="btn btn-lg bg-info text-light mt-4">Reserve Campsite</a>    
+                </div>
             </div>
         </div>
     </header>
@@ -63,21 +66,23 @@
             </div>
         </div>
         </div>
-    </div>
 
-    <div class="container">
         <div class="row row-content alight-items-center">
             <div class="col-sm-4 col-md-3">
                 <h2>Featured Campsites</h2>
             </div>
             <div class="col">
-                <h3>React Lake Campground</h3>
-                <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                <div class="media">
+                        <div class="media-body align-self-center">
+                            <h3>React Lake Campground</h3>
+                            <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the
+                                pristine React Lake is a favorite for fly fishers.</p>
+                        </div>
+                        <img src="img/react-lake-thumb.jpg" alt="react lack" class="d-flex ml-3 img-thumbnail">
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
             <div class="row row-content">
                 <div class="col-sm-4 order-sm-last col-md-3">
                     <h2 class="text-sm-right">Our Community Partners</h2>
@@ -92,7 +97,44 @@
                     </div>
                 </div>
             </div>
-    </div>
+
+            <div class="row row-content">
+                <div class="col-sm-8 col-md-6 mx-auto"> 
+                    <div class="card">
+                        <h3 class="card-header bg-info text-light">Reserve A Campsite</h3>
+                        <div class="card-body">
+                            <form class="form" id="reserveForm">
+                                <div class="row form-group">
+                                    <label for="numCampers" class="col-sm-6 col-form-label">Numbers of Campers</label>
+                                    <div class="col">
+                                        <select name="numCampers" id="numCampers" class="form-control">
+                                            <option>---</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </div>                               
+                                </div>
+                                <div class="row form-group">
+                                    <label for="numCampers" class="col-sm-6 col-form-label">Date</label>
+                                        <div class="col-sm-6 ">
+                                            <input type="date" name="date" id="date" placeholder="Date" class="form-control">
+                                        </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                    <button type="submit" class="btn btn-primary">Reserve</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div><!--container-->
 
     <footer class="site-footer">
         <div class="container">
