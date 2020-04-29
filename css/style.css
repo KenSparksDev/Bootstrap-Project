@@ -36,7 +36,11 @@ header h2 {
 .navbar {
 	background-color: #901cad;
 }
-
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 .text-row h1{
 	font-size:4.5em;
 	font-weight: 700;
