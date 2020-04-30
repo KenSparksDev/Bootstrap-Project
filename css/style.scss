@@ -1,0 +1,98 @@
+$color-primary: #3046c5;
+$color-secondary: #5637dd;
+$color-pale: #cec8ff;
+$color-mid: #901cad;
+$color-dark: #60106b;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+$single-price: #31b2af;
+$four-cards: #4c4e60;
+$base-apparel: #f6bda0;
+body {
+	font-family: "open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Lobster", "cursive";
+}
+
+h2 {
+	color: $color-primary;
+}
+
+header {
+	h2 {
+		color: $color-pale;
+	}
+}
+
+.site-footer {
+	background-image: linear-gradient(#b7a8f8, white);
+	padding: 20px 0px;
+}
+
+.jumbotron {
+	margin: 0;
+	padding: 30px;
+	background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+	color: white;
+}
+
+.row-content {
+	padding: 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 200px;
+}
+
+.navbar {
+	background-color: $color-mid;
+}
+#carouselButton {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.text-row h1 {
+	font-size: 4.5em;
+	font-weight: 700;
+}
+.text-row p {
+	font-size: 2.0em;
+}
+.c1 {
+	border: solid 3px $single-price;
+	box-shadow: 0 0 10px 5px $single-price;
+}
+.c2 {
+	border: solid 3px $four-cards;
+	box-shadow: 0 0 10px 5px $four-cards;
+}
+
+.c3 {
+	border: solid 3px $base-apparel;
+	box-shadow: 0 0 10px 5px $base-apparel;
+}
+
+span {
+	font-size: .7em;
+}
+
+.c1,
+.c2,
+.c3 {
+	margin: 0px 5px 0px 5px;
+	border-radius: 75px 0;
+}
+.c1 img,
+.c2 img,
+.c3 img {
+	border-radius: 75px 0;
+}
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel {
+	border: $color-primary;
+}

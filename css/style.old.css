@@ -1,0 +1,87 @@
+body {
+	font-family: "open Sans", sans-serif;
+}
+h1,
+h2,
+h3 {
+	font-family: "Lobster", "cursive";
+}
+
+h2 {
+	color: #3046c5;
+}
+
+header h2 {
+	color: #cec8ff;
+}
+
+.site-footer{
+    background-image: linear-gradient(#b7a8f8, white);
+    padding: 20px 0px;
+}
+
+.jumbotron {
+	margin: 0;
+	padding: 30px;
+	background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+	color: white;
+}
+
+.row-content {
+	padding: 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 200px;
+}
+
+.navbar {
+	background-color: #901cad;
+}
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.text-row h1{
+	font-size:4.5em;
+	font-weight: 700;
+}
+.text-row p{
+	font-size:2.0em;
+
+}
+.c1{
+	border: solid 3px #31B2AF;
+	box-shadow: 0 0 10px 5px #31B2AF;
+}
+.c2{
+border:solid 3px #4C4E60;
+box-shadow: 0 0 10px 5px #4C4E60;
+
+}
+
+.c3{
+	border: solid 3px #F6BDA0;
+	box-shadow: 0 0 10px 5px #F6BDA0;
+
+}
+
+span{
+	font-size:.7em;
+}
+
+ .c1, .c2, .c3{
+	margin:0px 5px 0px 5px;
+	border-radius: 75px 0;
+
+}
+.c1 img, .c2 img, .c3 img{
+	border-radius: 75px 0;
+} 
+
+
+.carousel-caption{
+	background-color: rgba(0 , 0 , 0 , 0.5);
+}
+.carousel{
+	border:#3046c5
+}
