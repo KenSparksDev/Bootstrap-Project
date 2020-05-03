@@ -73,3 +73,11 @@ span {
 
 .carousel {
   border: #3046c5; }
+
+#reserveModal .modal-header {
+  background-color: #17a2b8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901cad;
+  color: white; }

@@ -29,14 +29,14 @@
                         <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2"> 
-                <a class="btn btn-lg bg-info text-light mt-4"   data-toggle="modal" data-target="#reserveModal" role="button" >Reserve Campsite</a>    
+                <a class="btn btn-lg bg-info text-light mt-4"  id="reserveButton" role="button" > <i class="fa fa-ticket fa-lg"></i> Reserve Campsite</a>    
                 </div>
                 
             </div>
         </div>
     </header>
 
-<div class="modal" id="reserveModal">
+<div class="modal fade" id="reserveModal">
 <div class="modal-dialog" role="document">
     <div class="modal-content bg-light">
         <div class="modal-header bg-info text-light">
@@ -106,7 +106,7 @@
                         Projects</a></li>
             </ul>
           <!--login trigger-->  <span class="navbar-text ml-auto">
-                <a role="button" data-toggle="modal" data-target="#loginmodal">
+                <a role="button" id="loginButton">
                     <i class="fa fa-sign-in"></i> Login
                 </a>
             </span>
@@ -114,7 +114,7 @@
     </div>
 </nav>
 
-<!--login modal--><div id="loginmodal" class="modal fade" role="dialog">
+<!--login modal--><div id="loginModal" class="modal fade" role="dialog">
     <div class="modal-dialog " role="document">
         <div class="modal-content">
             <div class="modal-header">

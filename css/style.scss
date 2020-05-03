@@ -7,6 +7,9 @@ $color-transparent-black: rgba(0, 0, 0, 0.5);
 $single-price: #31b2af;
 $four-cards: #4c4e60;
 $base-apparel: #f6bda0;
+$color-teal:#17a2b8;
+$main-font:16px;
+
 body {
 	font-family: "open Sans", sans-serif;
 }
@@ -95,4 +98,18 @@ span {
 }
 .carousel {
 	border: $color-primary;
+}
+
+#reserveModal{
+	.modal-header{
+		background-color:$color-teal;
+		color:white;
+	}
+}
+
+#loginModal{
+	.modal-header{
+		background-color:$color-mid;
+		color:white;
+	}
 }

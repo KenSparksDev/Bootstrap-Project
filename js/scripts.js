@@ -12,3 +12,20 @@ $(function () {
     }
   });
 });
+
+
+let  i = 0
+while(i < 10){
+  console.log("The number", `${i}`, "is less than 10")
+  i++
+}
+
+$(function () {
+  $("#reserveButton").click(function () {
+    $("#reserveModal").modal("show");
+  });
+  $("#loginButton").click(function () {
+    $("#loginModal").modal("show");
+  });
+});
+
