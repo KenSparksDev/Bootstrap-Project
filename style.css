@@ -1,0 +1,148 @@
+
+body{
+font-family: 'Montserrat', sans-serif;
+max-width: 100%;
+}
+img{
+  width:100%;
+}
+.header-1{
+  background:rgb(21,36,83);
+}
+.header-1 a{
+  color:white;
+  text-transform: capitalize;
+  font-size: .8em;
+}
+.level-one h1{
+  font-size:1.8em;
+  color:rgb(28,46,54);
+  font-weight: 700;
+
+}
+.level-one p{
+  color:rgb(28,46,54);
+  font-weight: 500;
+}
+.level-one button{
+  background:rgb(21,70,160);
+  font-weight: 600;
+  border-radius: 1px;
+  padding:6px 30px;
+  font-size:.8em;
+}
+.top-nav li{
+  text-transform: uppercase;
+
+}
+.main-img{
+  position:relative;
+  text-align:left;
+  color:white;
+}
+.main-img img{
+  height:700px;
+}
+.desktop-text{
+  position: absolute;
+  bottom:8px;
+  left:16px;
+  margin:0px 0px 140px 25px;
+}
+.desktop-text h1{
+  font-size:3em
+}
+.desktop-text hr{
+  width:50px;
+  background-color:rgb(164,42,41);
+  height:5px
+}
+.hr{
+  width:50px;
+  background-color:rgb(164,42,41);
+  height:5px
+
+}
+
+.card img{
+  
+  height: 250px;
+}
+.search-button{
+  background: rgb(20,70,160);
+  border-radius: 0px;
+  padding:5px 90px;
+  font-size:1.2em;
+  font-weight: 700;
+}
+.search img{
+}
+.search input[type=text]{
+  padding:5px 0px
+}
+.go{
+  background: rgb(20,70,160);
+  border-radius: 0px;
+}
+.site-footer{
+  background:rgb(171,63,65);
+  color:white;
+}
+.site-footer p{
+  font-weight: bold;
+  font-size:11px
+}
+.site-footer ul li{
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom:5px;
+  font-size:11px
+}
+.connect i{
+  font-size:1.5em;
+}
+.connect-paragraph{
+  font-size:1.5em;
+}
+input[type=email]{
+  margin-right:0;
+}
+input[type=submit]{
+  background:rgb(20,70,160);
+  margin-left:0;
+
+}
+.frankford-first-para{
+  font-size:1.2em
+}
+.frankford-second-para{
+  font-weight:100
+}
+
+.form input{
+  border-radius:0px;
+  
+
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:rgb(20,70,160);
+    border: solid gray 1px
+}
+.carousel-indicators {
+    bottom: -50px; 
+}
+.non-carousel-best-sellers .card{
+  border:none;
+  width:325px;
+  padding:0;
+  margin:0;
+}
+.col-md-3 {
+  max-width: 350px;
+  padding:0;
+  margin:0
+}
